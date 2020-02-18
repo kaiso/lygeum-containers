@@ -1,6 +1,6 @@
 # The lygeum server official container images 
 <center>
-<img src="https://raw.githubusercontent.com/kaiso/lygeum/master/ui/src/assets/lygeum_logo_square.png" width="400" height="250"/><br><br>
+<img src="https://raw.githubusercontent.com/kaiso/lygeum/master/ui/src/assets/lygeum_logo_square.png" width="370" height="250"/><br><br>
 </center>
 <br>
 <br>
