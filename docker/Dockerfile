@@ -1,6 +1,6 @@
 FROM adoptopenjdk/openjdk11-openj9:x86_64-alpine-jre-11.0.6_10_openj9-0.18.1
 
-ENV LYGEUM_VERSION=0.1.0b4
+ENV LYGEUM_VERSION=0.1.0b5
 ENV LYGEUM_BINARY=lygeum-server-${LYGEUM_VERSION}.jar
 ENV LANG en_US.UTF-8
 ENV LYGEUM_DIST=https://bintray.com/kaiso/lygeum/download_file?file_path=${LYGEUM_BINARY}

@@ -29,6 +29,7 @@ _Suitable for production environment_
 docker run -itd -p 5000:5000 -e DB_VENDOR=postgres (add other database environment variables here) kaiso/lygeum:latest
 ```
 #### Environment variables to specify:
+`CONTEXT_PATH` : the context path to serve lygeum from (use when serving lygeum behind a proxy for example)<br>
 `DB_HOST` : the hostname or ip of the database<br>
 `DB_PORT`: Specify port of the database (optional, default is DB vendor default port)<br>
 `DB_DATABASE`: Specify name of the database to use (optional, default is lygeum).<br>
@@ -36,7 +37,8 @@ docker run -itd -p 5000:5000 -e DB_VENDOR=postgres (add other database environme
 `DB_USER`: Specify user to use to authenticate to the database (optional, default is postgres).<br>
 `DB_PASSWORD`: Specify user's password to use to authenticate to the database (optional, default is postgres).
 
-You can go on the administration console by visiting `http://localhost:5000`
+You can go on the administration console by visiting `http://localhost:5000`, if you set the `CONTEXT_PATH` env variable
+dont forget to append it to the url.
 
 ## LICENSE
 
